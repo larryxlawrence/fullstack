@@ -34,5 +34,5 @@ jobs:
     - run: npm run lint
     - run: npm install prettier
     - run: npm run prettier
-    - run: npm CI=true npm run test
+    - run: CI=true npm run test
     - run: npm run build
